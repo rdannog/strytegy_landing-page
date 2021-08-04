@@ -1,5 +1,78 @@
+@font-face {
+    font-family: "Soleto";
+    src: url('../fonts/Soleto-Regular/Soleto-Regular.ttf');
+  }
+@font-face {
+    font-family: "Paralucent";
+    src: url("../fonts/Paralucent/Paralucent.ttf");
+}
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: #25294C;
+}
+
+.header{
+    height: 12.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px #0000001A;
+}
+.header__logo{
+    margin-left: 9.2vw;
+}
+.header__logo--img{
+    width: 11vw;
+}
+.header__nav{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header__nav--button-faq a{
+    width:3vw;
+    font-size: 1.55vw;
+    font-family: 'Paralucent';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 1.5vw;
+}
+.header__span--yellow-button{
+    width: 14.8vw;
+    display: flex;
+    align-items: center;
+}
+.header__nav--button-yellow{
+    width:14vw;
+    height: 7.5vh;
+    font-family: 'Soleto';
+    font-size: 1.4vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #FFCE06;
+    border-radius: 5px;
+    border:#FFCE06;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.header__nav--button-yellow:hover{
+    width:14.8vw;
+    height: 8.5vh;
+}
+.header__nav--button-language{
+    width:2.2vw;
+    height: 4.4vh;
+    font-family: 'Paralucent';
+    font-size: 1.1vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 50%;
+    border: 1.5px solid;
+    background: none;
+    cursor: pointer;
+    margin-right: 3vw;
 }
