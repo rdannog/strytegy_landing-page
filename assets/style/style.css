@@ -92,29 +92,32 @@
     background-image: url('../img/Grupo\ 10149.png');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100vh;
+    background-size: 50% auto;
 }
 .main__intro{
-    width: 50%;
+    width: 55%;
     height: 100%;
     padding-left: 9vw;
-    padding-top: 3.7vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .main__intro--title{
     font-family: 'Paralucent';
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: 6.89vh;
+    margin-bottom: 5vh;
 }
 .main__intro--subtitle{
+    width: 80%;
     font-family: 'Soleto';
-    font-size: 1.8vw;
+    font-size: 3.5vh;
+    margin-bottom: 2vh;
 }
 .main__intro--button{
     width:16.5vw;
     height: 9vh;
+    margin-top: 5vh;
 }
 .main__intro--button:hover, .main__intro--yellow-button{
     width:17.5vw;
