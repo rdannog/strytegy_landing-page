@@ -105,27 +105,26 @@
 .main__intro--title{
     font-family: 'Paralucent';
     font-weight: bolder;
-    font-size: 6.89vh;
+    font-size: 3.2vw;
     margin-bottom: 5vh;
 }
 .main__intro--subtitle{
     width: 80%;
     font-family: 'Soleto';
-    font-size: 3.5vh;
+    font-size: 1.8vw;
     margin-bottom: 2vh;
+}
+.main__intro--yellow-button{
+    width: 100%;
+    height: 10vh;
+    padding-top: 3vh;
 }
 .main__intro--button{
     width:16.5vw;
     height: 9vh;
     margin-top: 5vh;
 }
-.main__intro--button:hover, .main__intro--yellow-button{
+.main__intro--button:hover{
     width:17.5vw;
     height: 9.5vh;
-}
-.main__intro--yellow-button{
-    padding-top: 3vh;
-}
-a:visited{
-    color: inherit;
 }
