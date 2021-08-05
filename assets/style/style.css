@@ -60,7 +60,7 @@
     border-radius: 5px;
     border:#FFCE06;
     cursor: pointer;
-    transition: .4s ease-in-out;
+    transition: .4s ease;
 }
 .header__nav--button-yellow:hover{
     width:14.8vw;
@@ -83,7 +83,7 @@
 .main__container{
     padding-top: 17vh;
 }
-.main__section--intro{
+.main__section--intro-wrapper{
     width: 97%;
     height: 80vh;
     display: flex;
@@ -127,4 +127,27 @@
 .main__intro--button:hover{
     width:17.5vw;
     height: 9.5vh;
+}
+.main__feature--title-box{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__title-box--h1{
+    height: 50%;
+    font-family: 'Paralucent';
+    font-size: 2.8vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-end;
+}
+.main__title-box--text{
+    height: 30%;
+    font-family: 'Soleto';
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
