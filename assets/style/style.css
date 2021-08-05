@@ -14,12 +14,15 @@
     color: #25294C;
 }
 
-.header{
+.header__container{
+    width: 100vw;
     height: 12.4vh;
+    background-color: #fff;
+    box-shadow: 0 3px 10px #0000001A;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 3px 10px #0000001A;
+    position: fixed;
 }
 .header__logo{
     margin-left: 9.2vw;
@@ -46,7 +49,7 @@
     display: flex;
     align-items: center;
 }
-.header__nav--button-yellow{
+.header__nav--button-yellow, .main__intro--button{
     width:14vw;
     height: 7.5vh;
     font-family: 'Soleto';
@@ -75,4 +78,51 @@
     background: none;
     cursor: pointer;
     margin-right: 3vw;
+}
+
+.main__container{
+    padding-top: 17vh;
+}
+.main__section--intro{
+    width: 97%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('../img/Grupo\ 10149.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100vh;
+}
+.main__intro{
+    width: 50%;
+    height: 100%;
+    padding-left: 9vw;
+    padding-top: 3.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main__intro--title{
+    font-family: 'Paralucent';
+    font-weight: bolder;
+    font-size: 3vw;
+}
+.main__intro--subtitle{
+    font-family: 'Soleto';
+    font-size: 1.8vw;
+}
+.main__intro--button{
+    width:16.5vw;
+    height: 9vh;
+}
+.main__intro--button:hover, .main__intro--yellow-button{
+    width:17.5vw;
+    height: 9.5vh;
+}
+.main__intro--yellow-button{
+    padding-top: 3vh;
+}
+a:visited{
+    color: inherit;
 }
