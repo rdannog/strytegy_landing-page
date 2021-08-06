@@ -11,7 +11,9 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     color: #25294C;
+    cursor: default;
 }
 
 .header__container{
@@ -23,6 +25,7 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 999;
 }
 .header__logo{
     margin-left: 9.2vw;
@@ -133,8 +136,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: linear-gradient(180deg, #FFFFFF, #FFFAE4 70%);
 }
-.main__title-box--h2{
+.main__title--h2{
     height: 50%;
     font-family: 'Paralucent';
     font-size: 2.8vw;
@@ -142,7 +146,7 @@
     display: flex;
     align-items: flex-end;
 }
-.main__title-box--text{
+.main__title--text{
     height: 30%;
     font-family: 'Soleto';
     font-size: 1.7vw;
@@ -152,8 +156,8 @@
     justify-content: center;
 }
 .main__feature--resources{
-    height: 62vh;
-    background-color: #22254B;color: white;
+    height: 63vh;
+    background-color: #22254B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,11 +191,70 @@
     justify-content: center;
 }
 .main__feature--links{
-    width: 75vw;
+    width: 74vw;
     height: 17vh;
-    border-radius: 6px;
-    background-color: yellow;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #00000014;
     display: flex;
     align-self: center;
     position: absolute;
+}
+.main__links--list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.main__links--list a{
+    width: 25%;
+}
+.main__links--item, #main__links--item{
+    border-left: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__links--item:hover, #main__links--item:hover{
+    width: 90%;
+    height: 13.5vh;
+    font-weight: 600;
+    background-color: #FFCE06;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1vh 1vw;
+    transition: .4s;
+}
+#main__links--item{
+    border: none;
+}
+.main__links--p{
+    width: 80%;
+    font-family: 'Paralucent';
+    font-size: 1.6vw;
+    text-align: center;
+}
+.main__section--journey-wrapper{
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main__journey--img{
+}
+.main__journey--img img{
+    width: 28vw;
+}
+.main__journey--text{
+    width: 46%;
+}
+.main__journey--text h2{
+    font-family: 'Paralucent';
+    font-size: 4.3vw;
+    padding: 3.8vh 0;
+}
+.main__journey--text h3{
+    font-family: 'Soleto';
+    font-size: 1.8vw;
+    font-weight: lighter;
 }
