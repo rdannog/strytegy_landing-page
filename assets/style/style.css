@@ -1,3 +1,4 @@
+/*FONTS*/
 @font-face {
     font-family: "Soleto";
     src: url('../fonts/Soleto-Regular/Soleto-Regular.ttf');
@@ -6,6 +7,7 @@
     font-family: "Paralucent";
     src: url("../fonts/Paralucent/Paralucent.ttf");
 }
+/*GLOBAL SELECTOR*/
 *{
     padding:0;
     margin: 0;
@@ -15,7 +17,17 @@
     color: #25294C;
     cursor: default;
 }
-
+/*SCROLL BAR*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(187, 184, 184); 
+}
+/*HEADER*/
 .header__container{
     width: 100vw;
     height: 12.4vh;
@@ -46,6 +58,7 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 1.5vw;
+    cursor: pointer;
 }
 .header__span--yellow-button{
     width: 14.8vw;
@@ -82,10 +95,11 @@
     cursor: pointer;
     margin-right: 3vw;
 }
-
+/*MAIN*/
 .main__container{
     padding-top: 17vh;
 }
+/*MAIN INTRO*/
 .main__section--intro-wrapper{
     width: 97%;
     height: 80vh;
@@ -131,6 +145,8 @@
     width:17.5vw;
     height: 9.5vh;
 }
+/*STRYTEGY SECTION*/
+/*white box*/
 .main__feature--title{
     height: 60vh;
     display: flex;
@@ -155,6 +171,7 @@
     align-items: center;
     justify-content: center;
 }
+/*blue box*/
 .main__feature--resources{
     height: 63vh;
     background-color: #22254B;
@@ -185,6 +202,7 @@
     font-family: 'Soleto';
     font-size: 1.3vw;
 }
+/*links menu*/
 .main__feature--links-wrapper{
     width: 100%;
     display: flex;
@@ -234,13 +252,12 @@
     font-size: 1.6vw;
     text-align: center;
 }
+/*JOURNEY SECTION*/
 .main__section--journey-wrapper{
     height: 77vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-.main__journey--img{
 }
 .main__journey--img img{
     width: 28vw;
