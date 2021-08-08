@@ -44,6 +44,7 @@
 }
 .header__logo--img{
     width: 11vw;
+    cursor: pointer;
 }
 .header__nav{
     width: 32%;
