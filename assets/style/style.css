@@ -99,7 +99,7 @@
 .main__container{
     padding-top: 17vh;
 }
-/*MAIN INTRO*/
+/*main intro*/
 .main__section--intro-wrapper{
     width: 97%;
     height: 80vh;
@@ -230,7 +230,7 @@
     align-items: center;
     justify-content: center;
 }
-.div{
+.link-div{
     width: 0.2%;
     height: 40%;
     background-color: #22254B;
@@ -270,6 +270,7 @@
     font-size: 1.8vw;
     font-weight: lighter;
 }
+/*STRYTEGY SECTION*/
 .main__section--strytegy-wrapper{
     width: 100%;
 }
@@ -279,6 +280,7 @@
     display: flex;
     justify-content: center;
 }
+/*text-blue box*/
 .main__strytegy--text-wrapper{
     width:54%;
     height: 100%;
@@ -302,6 +304,7 @@
     font-weight: lighter;
     margin-bottom: 18vh;
 }
+/*main grid*/
 .main__strytegy--grid-wrapper{
     width: 100%;
     height: 86.2vh;
@@ -329,12 +332,14 @@
     display: flex;
     align-items: center;
 }
+.main__grid--content-b{
+    height: 31.4vh;
+}
 .main__grid--content-a{
     height: 48.5vh;
 }
-
-.main__grid--content-b{
-    height: 31.4vh;
+.main__grid--content-a:hover, .main__grid--content-b:hover{
+    transform: scale(1.02);
 }
 .main__grid--item{
     width: 100%;
@@ -351,7 +356,6 @@
     text-align: center;
     width: 17.5vw;
 }
-
 .item-4, .item-6{
     position: relative;
     top: 3vh;
@@ -360,11 +364,120 @@
     position: relative;
     bottom:13vh;
 }
+/*bottom wavy line*/
 .main__strytegy--wavy-line{
     height: 96vh;
     display: flex;
     align-items: flex-end;
 }
 .main__strytegy--wavy-line svg{
-    background-color: #22254B31;
+    background-color: rgba(83, 33, 196, 0.1);
+}
+/*FOOTER*/
+.footer__container{
+    background-image: linear-gradient(rgba(83, 33, 196, 0.1) , rgba(34, 37, 75, 0.1));
+}
+/*CTA SECTION*/
+.footer__section--contact-wrapper{
+    height: 90vh;
+}
+.footer__contact--title, .footer__contact--text, .footer__contact--button{
+    height: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__contact--title{
+    font-family: 'Paralucent';
+    font-weight: bold;
+    font-size: 2.7vw;
+    justify-content: flex-end;
+}
+.footer__contact--text{
+    width: 100%;
+}
+.footer__text{
+    width: 55%;
+    font-family: 'Soleto';
+    font-weight: 100;
+    font-size: 1.7vw;
+    text-align: center;
+}
+.footer__contact--button{
+    padding-top: 5vh;
+    justify-content: flex-start;
+}
+.footer__button{
+    width: 16.5vw;
+    height: 9.1vh;
+    background-color: #FFCE06;
+    border: #FFCE06;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+/*ABOUT SECTION*/
+.footer__section--about-wrapper{
+    height: 67.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*about text*/
+.footer__about{
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__about--title{
+    font-size: 1vw;
+    font-family: 'Paralucent';
+    font-weight: bolder;
+}
+.footer__about--text{
+    font-size: 1.2vw;
+    font-family: 'Soleto';
+    font-weight: 100;
+}
+.footer__about-logo{
+    font-size: 1.3vw;
+    font-family: 'Paralucent';
+    display: flex;
+    align-items: center;
+    
+}
+.footer__about-logo img{
+    width:4vw; 
+    height:8.3vh;
+    margin-right: 1.5vw;
+}
+.footer__about-company{
+    font-size: 0.9vw;
+    font-family: 'Soleto';
+    text-transform: uppercase;
+}
+/*links list*/
+.footer__list{
+    width: 30vw;
+    height:42vh;
+    display: flex;
+}
+.footer__list-wrapper{
+    width: 50%;
+    font-size: 1vw;
+    font-family: 'Paralucent';
+    font-weight: bolder;
+}
+.footer__list-wrapper ul{
+    margin-top: 3vh;
+}
+.footer__list-wrapper li{
+    font-size: 1.1vw;
+    font-family: 'Soleto';
+    font-weight: 100;
+    margin-top: 1vh;
+    cursor: pointer;
 }
